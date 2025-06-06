@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--tittle-->
+
+    <title>My Portfolio</title>
+
+    <!--Website icon-->
+
+    <link rel="website icon" href="assets/favicon.png" />
+
+    <!--Css-->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Responsive Css-->
+
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div id="main">
+      <!--Desktop Navbar-->
+
+      <nav id="desktop-nav">
+        <div class="logo">
+          <img src="𒆜𝑻ℴ𝘶ຣ༏ḟᶻ𒆜" alt="" height="110px" />
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Mobile Navbar-->
+
+      <nav id="hamburger-nav">
+        <div class="logo">
+          <img src="𒆜𝑻ℴ𝘶ຣ༏ḟᶻ𒆜" height="100px" alt="" />
+        </div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+
+      <!--Main Section-->
+
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="styles pic.jpg" alt="tousif profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section_text_p1">Hello, I'm</p>
+          <h1 class="title">Sk Tousif Zaman</h1>
+          <p class="section_text_p2">Frontend Developer</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/resume.pdf')"
+            >
+              Download CV
+            </button>
+            <button
+              class="btn btn-color-1"
+              onclick="location.href='./#contact'"
+            >
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="https://cdn-icons-png.freepik.com/256/254/254394.png?semt=ais_hybrid"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/sk-tousif-zaman-090504351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"
+            />
+            <img 
+              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/iamtousif-z?tab=repositories'"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--About Section-->
+
+      <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src=".https://www.vecteezy.com/png/50980833-3d-working-time-illustration"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="https://img.icons8.com/?size=512w&id=17912&format=png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>6th month <br />Frontend Development</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="https://img.icons8.com/?size=60&id=lr84uZRTla4s&format=png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>B.Tech Bachelors Degree</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+               Hi, I'm Tousif. I'm currently pursuing a B.Tech degree in Computer Science and Engineering.
+I'm passionate about technology and always eager to learn new things in the field of programming and development.
+I believe in continuous learning and building practical skills through projects and hands-on experience.
+Looking forward to exploring areas like web development, AI, data science and  cyber security during my journey!
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="https://img.icons8.com/?size=50&id=qFcxmVT0PLvO&format=gif"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+
+      <!--Experience Section-->
+
+      <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/3856/3856060.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/732/732007.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+              
+                <article>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/14/14427.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/10832/10832170.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>React</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Tools & Others Skill</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/9507/9507494.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>C</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/9850/9850878.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>DSA</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+           
+                <article>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Git,GitHub</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="https://img.icons8.com/?size=50&id=qFcxmVT0PLvO&format=gif"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+
+      <!--Project Section-->
+
+      <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="calculator.png" alt="" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Calculator</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/iamtousif-z/calculator'"
+                >
+                  Github
+                </button>
+              
+              </div>
+            </div>
+       
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="https://cdn-icons-png.flaticon.com/128/10218/10218895.png" alt="" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">E Commerce</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/iamtousif-z/zaman'"
+                >
+                  Github
+                </button>
+            
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="https://img.icons8.com/?size=50&id=qFcxmVT0PLvO&format=gif"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+
+      <!--Contact Section-->
+
+      <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="https://img.icons8.com/?size=80&id=pJJmXPomYuPv&format=png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p>
+              <a href="mailto:tousifzaman8250@gmail.com" target="_blank"
+                >tousifzaman8250@gmail.com</a
+              >
+            </p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="https://img.icons8.com/?size=50&id=8808&format=png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p>
+              <a
+                href="https://www.linkedin.com/in/sk-tousif-zaman-090504351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                >LinkedIn</a
+              >
+          <div class="contact-info-container">
+            <img
+              src="https://img.icons8.com/?size=80&id=sIjAGWOh8bN8&format=png"
+              alt="instagram icon"
+              class="icon contact-icon"
+            />
+            <p>
+              <a
+                href="https://www.instagram.com/zaman__tousif/"
+                target="_blank"
+                >Instagram</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--Footer Section-->
+
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2025 Sk Tousif Zaman. All Rights Reserved.</p>
+      </footer>
+    </div>
+    <!--Js-->
+    <script src="script.js"></script>
+  </body>
+</html>
